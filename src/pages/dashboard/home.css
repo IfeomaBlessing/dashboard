@@ -1,0 +1,34 @@
+
+
+
+    .home h2{
+        margin-bottom:5px;
+    }
+    .boxes,
+    .charts{
+        display: grid;
+        justify-content:space-between;
+        grid-template-columns: repeat(3,1fr);
+       
+    }
+    
+    .charts{
+        grid-template-columns:1fr 2fr;
+    margin-top:18px;
+        gap: 20px;
+    }
+   
+    
+    @media screen and (max-width:790px) {
+        .home-container{
+            width:calc( 100% - 100px);
+            margin-left:100px;
+        }
+    
+        .boxes,
+    .charts{
+    
+    flex-wrap: wrap;
+        
+    }
+    }

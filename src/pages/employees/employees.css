@@ -1,0 +1,62 @@
+
+.header{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    margin-top:30px;
+}
+
+table{
+    margin:50px 0;
+    width:100%;
+    box-shadow:2px 2px 6px 1px rgba(0,0,0, 0.4);
+    border-collapse:collapse;
+}
+thead td{
+font-weight:700;
+font-size:20px;
+text-transform: uppercase;
+padding: 20px;
+text-align:center;
+}
+tr{
+    text-align: center;
+}
+tbody tr td{
+    padding:10px 20px;
+}
+tbody tr:hover{
+    background:rgba(214, 207, 207, 0.7);
+}
+.person-details{
+    display:flex;
+    align-items:center;
+}
+.profile{
+    width:30px;
+    border-radius:50%;
+    margin-right:10px;
+}
+.home-content button{
+    border:none;
+    padding:10px;
+    margin-right:5px;
+     border-radius: 4px;
+     letter-spacing:2px;
+     color:white;
+     cursor: pointer;
+}
+.header button{
+    border:1px solid grey;
+    color:black;
+    background:transparent;
+}
+.view{
+    background-color:rgb(73, 6, 73);
+}
+.edit{
+    background-color:blue;
+}
+.delete{
+    background:red;
+}

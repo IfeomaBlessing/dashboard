@@ -1,0 +1,21 @@
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    /* width:100%; */
+    height:100vh;
+}
+.mini-container{
+    width:calc( 100% - 180px);
+    margin-left:180px;
+}
+.mini-container.active{
+    width:calc( 100% - 50px);
+    margin-left:50px;
+}
+.layout-content{
+    /* padding:10px 1.5rem 20px; */
+    background: blue;
+    margin-top:70px;
+    padding-left:30px;
+}
